@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px) {
+  #root {
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    padding: 2rem;
+    /* text-align: center; */
+  }
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+  /* Display section */
+  .display-grid {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr; */
+    gap: 10px;
+  }
+
+  .spending-heading {
+    font-size: 26px;
+    margin: 10px;
+  }
+  .expense-heading {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .display-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Expense section */
+  .expenses-section {
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 490px) {
+}
+@media only screen and (max-width: 380px) {
+  .App {
+    padding: 0;
+  }
+  .balance-amount {
+    font-size: 24px;
+  }
+  .spending-heading {
+    font-size: 20px;
+  }
+  .spent-amount {
+    font-size: 20px;
+  }
+  .balance-text {
+    font-size: 14px;
+  }
+  .expenses-section {
+    width: 250px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .expense-heading {
+    font-size: 20px;
+  }
+
+  .edit-container {
+    width: 250px;
+  }
+  .edit-heading {
+    font-size: 20px;
+  }
+  .edit-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    /* background-color: red; */
+  }
+  .edit-label {
+    font-size: 16px;
+  }
+  .amount-input {
+    border: solid 2px grey;
+    padding: 5px;
+  }
+}
